@@ -1,11 +1,11 @@
 // Components
-import SongOverview from "./Components/SongOverview";
+import SongWrapper from "./Components/Song/SongWrapper";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <SongOverview />
+      <SongWrapper />
     </div>
   );
 }

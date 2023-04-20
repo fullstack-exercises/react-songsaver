@@ -10,10 +10,10 @@ import "./index.css";
 
 // Reducers / Components
 import App from "./App";
-// import allReducer from "./Reducers";
+import allReducer from "./Reducers";
 
 const store = createStore(
-  // allReducer,
+  allReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
