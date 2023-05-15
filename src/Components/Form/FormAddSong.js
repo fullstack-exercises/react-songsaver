@@ -13,6 +13,7 @@ function SongForm() {
 
     dispatch(addSong(title, artist, genre, rating));
     e.target.reset();
+    e.preventDefault();
   };
   return (
     <>
